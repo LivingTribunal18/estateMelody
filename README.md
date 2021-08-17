@@ -6,5 +6,7 @@ The site of the residential complex "Melody" for assistance in choosing and buyi
 - <a href="https://www.figma.com/file/PCpDJXghyV7RFUaTCEw8YF/Melody?node-id=1%3A2"> Figma layout </a> 
 - normalize css - Сross-browser compatibility
 - Google Fonts
-- HTML5 / CSS3
 - Adaptive layout
+- HTML5 / CSS3
+- JavaScript
+

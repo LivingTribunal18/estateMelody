@@ -1,0 +1,19 @@
+<svg width="433" height="408" viewBox="0 0 433 408" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="433" height="408" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.00230947 0.00245098)"/>
+</pattern>
+<image id="image0" width="433" height="408" xlink:href="img/Floor.png">
+</defs>
+<path d="M124.729 116H46V198H167V145.178H124.729V116Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M48.5 274.5H117.5V252.5H166.5V308.5H139.5V375H91V391.5H29V329.5H48.5V274.5Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M119.5 273.5H49V199.5H165V252.5H119.5V273.5Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M48 79V115.5H124V145H163V130.5H185V34.5H91V19H30V79H48Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M248 34.5V132H266.5V149H314.5V140H386.5V80H403V17.5H342V34.5H248Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M266 150V200.5H366.5V204.5H385.5V140.5H314.5V150H266Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M267.5 200.5V252.5H314V268.5H386.5V206H365.5V200.5H267.5Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M314 252H267.5V310H296V376H342V391.5H403.5V329.5H385.5V269H314V252Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M217 263H246V274H266V310H295.5V374.5H258.5V394.5H217V374.5V263Z" fill="#3595F6" fill-opacity="0.75"/>
+<path d="M138 374.5V308H165.5V274H187V263H217L217.5 374.5V394.5H175V374.5H138Z" fill="#3595F6" fill-opacity="0.75"/>
+</svg>

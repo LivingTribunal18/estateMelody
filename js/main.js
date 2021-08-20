@@ -70,6 +70,7 @@ $(document).ready(function () {
       currentFloor++;
       usCurrentFloor = formatNum(currentFloor);
       colorFloor(usCurrentFloor);
+      console.log(usCurrentFloor);
     }
   });
 

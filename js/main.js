@@ -14,7 +14,14 @@ $(document).ready(function () {
     currentFloor = num;
   }
 
-  function colorFlat(index, className) {}
+  function colorFlat(inpArr, classToggle, className, path) {
+    Object.keys(inpArr).map((key) => {
+      if (inpArr[key] == path) {
+        $(className).removeClass(classToggle);
+        $(className).eq(key).addClass(classToggle);
+      }
+    });
+  }
 
   // function formatting floor number to ~ '0[2]'
   function formatNum(floorNum) {
@@ -30,28 +37,25 @@ $(document).ready(function () {
   $(".view-flats").on("click", toggleModal);
 
   $(".flats path").on("mouseover", function () {
-    let inputArrFloor = document.querySelectorAll(".flats path");
+    $(".flats path").removeClass("path_active");
 
-    Object.keys(inputArrFloor).map((key) => {
-      if (inputArrFloor[key] == this) {
-        $(".flat-link").removeClass("active");
-        $(".flat-link").eq(key).addClass("active");
-      }
-    });
+    colorFlat(
+      document.querySelectorAll(".flats path"),
+      "active",
+      ".flat-link",
+      this
+    );
   });
 
-  $(".flat-link").on("mouseover", function (e) {
-    e.preventDefault();
+  $(".flat-link").on("mouseover", function () {
     $(".flat-link").removeClass("active");
-    $(this).toggleClass("active");
 
-    let inputArrLink = document.querySelectorAll(".flat-link");
-    Object.keys(inputArrLink).map((key) => {
-      if (inputArrLink[key] == this) {
-        $(".flats path").removeClass("path_active");
-        $(".flats path").eq(key).addClass("path_active");
-      }
-    });
+    colorFlat(
+      document.querySelectorAll(".flat-link"),
+      "path_active",
+      ".flats path",
+      this
+    );
   });
 
   // add active class on path hover

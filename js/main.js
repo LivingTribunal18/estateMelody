@@ -14,9 +14,9 @@ $(document).ready(function () {
     currentFloor = num;
   }
 
-  function colorFlat(inpArr, classToggle, className, path) {
+  function colorFlat(inpArr, classToggle, className, self) {
     Object.keys(inpArr).map((key) => {
-      if (inpArr[key] == path) {
+      if (inpArr[key] == self) {
         $(className).removeClass(classToggle);
         $(className).eq(key).addClass(classToggle);
       }

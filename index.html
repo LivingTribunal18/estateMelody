@@ -90,9 +90,83 @@
           <img class="counter-arrow counter-arrow-down" src="./img/counter.svg" alt="counter">
         </button>
       </div>
-      <button class="button button-primary">Смотреть квартиры на этаже</button>
+      <button class="button button-primary view-flats">Смотреть квартиры на этаже</button>
     </div>
   </main>
+
+  <div class="modal">
+    <div class="modal-dialog">
+      <button class="modal-close-button">
+        <img src="./img/close.svg" alt="">
+      </button>
+      <div class="modal-image">
+        <h3 class="modal-title">Этаж <span class="counter">02</span></h3>
+        <svg 
+          class="flats"
+          width="433" 
+          height="408" 
+          viewBox="0 0 433 408" 
+          fill="none" 
+          xmlns="http://www.w3.org/2000/svg" 
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <rect width="433" height="408" fill="url(#pattern1)"/>
+          <defs>
+            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image1" transform="scale(0.00230947 0.00245098)"/>
+            </pattern>
+            <image id="image1" width="433" height="408" xlink:href="./img/floor.png">
+          </defs>
+          <path d="M124.729 116H46V198H167V145.178H124.729V116Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M48.5 274.5H117.5V252.5H166.5V308.5H139.5V375H91V391.5H29V329.5H48.5V274.5Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M119.5 273.5H49V199.5H165V252.5H119.5V273.5Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M48 79V115.5H124V145H163V130.5H185V34.5H91V19H30V79H48Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M248 34.5V132H266.5V149H314.5V140H386.5V80H403V17.5H342V34.5H248Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M266 150V200.5H366.5V204.5H385.5V140.5H314.5V150H266Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M267.5 200.5V252.5H314V268.5H386.5V206H365.5V200.5H267.5Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M314 252H267.5V310H296V376H342V391.5H403.5V329.5H385.5V269H314V252Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M217 263H246V274H266V310H295.5V374.5H258.5V394.5H217V374.5V263Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path d="M138 374.5V308H165.5V274H187V263H217L217.5 374.5V394.5H175V374.5H138Z" fill="#3595F6" fill-opacity="0.75"/>
+        </svg>
+      </div>
+      <div class="modal-info">
+        <h3 class="modal-title">Выберите квартиру</h3>
+        <ul class="flat-list">
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 40, 2 комн. 64,5 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 41, 1 комн. 38,9 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 42, 1 комн. 35,9 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 43, 3 комн. 56,0 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 44, 1 комн. 35,8 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 45, 1 комн. 35,8 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 46, 3 комн. 58,4 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 47, 1 комн. 32,3 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 48, 1 комн. 29,9 кв. м.</a>
+          </li>
+          <li class="flat-item">
+            <a href="" class="flat-link">кв. 49, 3 комн. 75,2 кв. м.</a>
+          </li>
+        </ul>
+        <p class="modal-alert">Квартиры, отмеченные серым, <br> уже выкуплены</p>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="footer">

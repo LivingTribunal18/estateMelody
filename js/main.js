@@ -1,11 +1,6 @@
 $(document).ready(function () {
   let currentFloor = 2;
 
-  // function opens and closes modal window
-  function toggleModal() {
-    $(".modal").toggleClass("is-open");
-  }
-
   // add active class function
   function colorFloor(num) {
     $(".home_image path").removeClass("current-floor");
@@ -30,11 +25,6 @@ $(document).ready(function () {
       useGroupping: false,
     });
   }
-
-  // show modal window
-  $(".home_image").on("click", toggleModal);
-  $(".modal-close-button").on("click", toggleModal);
-  $(".view-flats").on("click", toggleModal);
 
   $(".flats path").on("mouseover", function () {
     $(".flats path").removeClass("path_active");

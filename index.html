@@ -9,192 +9,228 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/stylesheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
   <header class="header">
-    <div class="navbar">
-      <a href="./index.html" class="logo-link">
-        <img src="./img/logo.svg" alt="logo">
-      </a>
-      <nav class="navbar-nav">
-        <ul class="navbar-menu">
-          <li class="navbar-item active">
-            <a href="" class="navbar-link">Подобрать <br> квартиру</a>
-          </li>
-          <li class="navbar-item">
-            <a href="" class="navbar-link"> Забронировать <br> квартиру</a>
-          </li>
-          <li class="navbar-item">
-            <a href="" class="navbar-link">Ход <br> строительства</a>
-          </li>
-          <li class="navbar-item">
-            <a href="" class="navbar-link">Проектная <br> декларация</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="navbar-contacts">
-        <span class="navbar-text">Закажите звонок:</span>
-        <a class="navbar-phone" href="tel:+78431234567">8 (843) 123-45-67</a>
+    <nav class="navbar navbar-light navbar-expand-lg p-0">
+      <div class="container">
+        <a class="navbar-brand m-0" href="#">
+          <img src="./img/logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-menu me-auto ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item navbar-item active">
+              <a class="navbar-link active" aria-current="page" href="#">Подобрать <br> квартиру</a>
+            </li>
+            <li class="nav-item navbar-item ">
+              <a class="navbar-link" href="#">Забронировать <br> квартиру</a>
+            </li>
+            <li class="nav-item navbar-item ">
+              <a class="navbar-link" href="#">Ход <br> строительства</a>
+            </li>
+            <li class="nav-item navbar-item ">
+              <a class="navbar-link" href="#">Проектная <br> декларация</a>
+            </li>
+          </ul>
+          <div class="navbar-contacts">
+            <span class="navbar-text">Закажите звонок:</span>
+            <a class="navbar-phone" href="tel:+78431234567">8 (843) 123-45-67</a>
+        </div>
+        </div>
       </div>
-    </div>
+    </nav>
+
   </header>
 
   <main class="main">
-    <div class="main-image">
-      <svg 
-        id="list"
-        class="home_image"
-        width="734" 
-        height="640" 
-        viewBox="0 0 734 640" 
-        fill="none" 
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink">
-        <rect width="734" height="640" fill="url(#pattern0)" />
-        <defs>
-          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-            <use xlink:href="#image0" transform="translate(-0.00408719) scale(0.0013624 0.0015625)" />
-          </pattern>
-          <image id="image0" width="740" height="640" xlink:href="img/home.png">
-        </defs>
-        <path data-floor="02" d="M222 537L442.8 545L512 531.3V553L443.5 572.7L222 561.7V537Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="03" d="M223 537V510L443.3 514.3L513 508V531L443.3 545L223 537Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="04" d="M223 510V485H444H513V508L445 515L223 510Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="05" d="M223 486V461L444.3 457.3L512 464V486H444" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="06" d="M223 461.5V433L444 429L513 441L512.5 464L444 457L223 461.5Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="07" d="M222 433V409.3L443 397L514 419V441.3L443 429L222 433Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="08" d="M222 411V386L443 369L514 398.3V419L443.7 397.3L222 411Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="09" d="M222 386V360L444.5 339L514 377.3V398L442 369.5L222 386Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="10" d="M222 360V335L445 311.3L514 353.5V377L444.7 339L222 360Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="11" d="M222 335V311L444.5 282.3L514 333.3V354L443.7 311.7L222 335Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="12" d="M222 311V286L444 254L514 312.5V333L444 282.3L222 311Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="13" d="M222 286V262L444.3 227L513 291V312L444.3 253.7L222 286Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="14" d="M222 262V235.5L445 195.5L513 269.3V290.5L444 227L222 262Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="15" d="M222 236V211L442.8 167.3L513 246.3V269L444 195.7L222 236Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="16" d="M222 211V186.5L443.5 138.5L513 224V247L442.3 167.7L222 211Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="17" d="M222 187V162L443.3 110L513 202.3V225L443.3 138.7L222 187Z" fill="#3595F6" fill-opacity="0.75" />
-        <path data-floor="18" d="M222 162V136L444 79.3L513 181V202L444.5 111.5L222 162Z" fill="#3595F6" fill-opacity="0.75" />
-      </svg>
-
-    </div>
-    <div class="main-info">
-      <h2 class="main-title">Выберите желаемый этаж</h2>
-      <div class="counter-group">
-        <button class="counter-button counter-up">
-          <img class="counter-arrow counter-arrow-up" src="./img/counter.svg" alt="counter">
-        </button>
-        <span class="counter">02</span>
-        <button class="counter-button counter-down">
-          <img class="counter-arrow counter-arrow-down" src="./img/counter.svg" alt="counter">
-        </button>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <svg 
+            id="list"
+            class="home_image"
+            width="734" 
+            height="640" 
+            viewBox="0 0 734 640" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="734" height="640" fill="url(#pattern0)" />
+            <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0" transform="translate(-0.00408719) scale(0.0013624 0.0015625)" />
+              </pattern>
+              <image id="image0" width="740" height="640" xlink:href="img/home.png">
+            </defs>
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="02" d="M222 537L442.8 545L512 531.3V553L443.5 572.7L222 561.7V537Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="03" d="M223 537V510L443.3 514.3L513 508V531L443.3 545L223 537Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="04" d="M223 510V485H444H513V508L445 515L223 510Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="05" d="M223 486V461L444.3 457.3L512 464V486H444" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="06" d="M223 461.5V433L444 429L513 441L512.5 464L444 457L223 461.5Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="07" d="M222 433V409.3L443 397L514 419V441.3L443 429L222 433Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="08" d="M222 411V386L443 369L514 398.3V419L443.7 397.3L222 411Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="09" d="M222 386V360L444.5 339L514 377.3V398L442 369.5L222 386Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="10" d="M222 360V335L445 311.3L514 353.5V377L444.7 339L222 360Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="11" d="M222 335V311L444.5 282.3L514 333.3V354L443.7 311.7L222 335Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="12" d="M222 311V286L444 254L514 312.5V333L444 282.3L222 311Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="13" d="M222 286V262L444.3 227L513 291V312L444.3 253.7L222 286Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="14" d="M222 262V235.5L445 195.5L513 269.3V290.5L444 227L222 262Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="15" d="M222 236V211L442.8 167.3L513 246.3V269L444 195.7L222 236Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="16" d="M222 211V186.5L443.5 138.5L513 224V247L442.3 167.7L222 211Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="17" d="M222 187V162L443.3 110L513 202.3V225L443.3 138.7L222 187Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-bs-toggle="modal" data-bs-target="#exampleModal" data-floor="18" d="M222 162V136L444 79.3L513 181V202L444.5 111.5L222 162Z" fill="#3595F6" fill-opacity="0.75" />
+          </svg>
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-evenly align-items-center">
+          <h2 class="main-title">Выберите желаемый этаж</h2>
+          <div class="counter-group">
+            <button class="counter-button counter-up">
+              <img class="counter-arrow counter-arrow-up" src="./img/counter.svg" alt="counter">
+            </button>
+            <span class="counter">02</span>
+            <button class="counter-button counter-down">
+              <img class="counter-arrow counter-arrow-down" src="./img/counter.svg" alt="counter">
+            </button>
+          </div>
+          <button class="button button-primary view-flats" data-bs-toggle="modal" data-bs-target="#exampleModal">Смотреть квартиры на этаже</button>
+        </div>
       </div>
-      <button class="button button-primary view-flats">Смотреть квартиры на этаже</button>
     </div>
   </main>
 
-  <div class="modal">
-    <div class="modal-dialog">
-      <button class="modal-close-button">
-        <img src="./img/close.svg" alt="">
-      </button>
-      <div class="modal-image">
-        <h3 class="modal-title">Этаж <span class="counter">02</span></h3>
-        <svg 
-          class="flats"
-          width="433" 
-          height="408" 
-          viewBox="0 0 433 408" 
-          fill="none" 
-          xmlns="http://www.w3.org/2000/svg" 
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <rect width="433" height="408" fill="url(#pattern1)"/>
-          <defs>
-            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-            <use xlink:href="#image1" transform="scale(0.00230947 0.00245098)"/>
-            </pattern>
-            <image id="image1" width="433" height="408" xlink:href="./img/floor.png">
-          </defs>
-          <path d="M124.729 116H46V198H167V145.178H124.729V116Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M48.5 274.5H117.5V252.5H166.5V308.5H139.5V375H91V391.5H29V329.5H48.5V274.5Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M119.5 273.5H49V199.5H165V252.5H119.5V273.5Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M48 79V115.5H124V145H163V130.5H185V34.5H91V19H30V79H48Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M248 34.5V132H266.5V149H314.5V140H386.5V80H403V17.5H342V34.5H248Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M266 150V200.5H366.5V204.5H385.5V140.5H314.5V150H266Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M267.5 200.5V252.5H314V268.5H386.5V206H365.5V200.5H267.5Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M314 252H267.5V310H296V376H342V391.5H403.5V329.5H385.5V269H314V252Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M217 263H246V274H266V310H295.5V374.5H258.5V394.5H217V374.5V263Z" fill="#3595F6" fill-opacity="0.75"/>
-          <path d="M138 374.5V308H165.5V274H187V263H217L217.5 374.5V394.5H175V374.5H138Z" fill="#3595F6" fill-opacity="0.75"/>
-        </svg>
-      </div>
-      <div class="modal-info">
-        <h3 class="modal-title">Выберите квартиру</h3>
-        <ul class="flat-list">
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 40, 2 комн. 64,5 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 41, 1 комн. 38,9 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 42, 1 комн. 35,9 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 43, 3 комн. 56,0 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 44, 1 комн. 35,8 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 45, 1 комн. 35,8 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 46, 3 комн. 58,4 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 47, 1 комн. 32,3 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 48, 1 комн. 29,9 кв. м.</a>
-          </li>
-          <li class="flat-item">
-            <a href="" class="flat-link">кв. 49, 3 комн. 75,2 кв. м.</a>
-          </li>
-        </ul>
-        <p class="modal-alert">Квартиры, отмеченные серым, <br> уже выкуплены</p>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="exampleModalLabel">Этаж <span class="counter">02</span> </h5>
+          <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+            <img src="./img/close.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-8">
+              <svg 
+                class="flats"
+                width="433" 
+                height="408" 
+                viewBox="0 0 433 408" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg" 
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="433" height="408" fill="url(#pattern1)"/>
+                <defs>
+                  <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image1" transform="scale(0.00230947 0.00245098)"/>
+                  </pattern>
+                  <image id="image1" width="433" height="408" xlink:href="./img/floor.png">
+                </defs>
+                <path d="M124.729 116H46V198H167V145.178H124.729V116Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M48.5 274.5H117.5V252.5H166.5V308.5H139.5V375H91V391.5H29V329.5H48.5V274.5Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M119.5 273.5H49V199.5H165V252.5H119.5V273.5Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M48 79V115.5H124V145H163V130.5H185V34.5H91V19H30V79H48Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M248 34.5V132H266.5V149H314.5V140H386.5V80H403V17.5H342V34.5H248Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M266 150V200.5H366.5V204.5H385.5V140.5H314.5V150H266Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M267.5 200.5V252.5H314V268.5H386.5V206H365.5V200.5H267.5Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M314 252H267.5V310H296V376H342V391.5H403.5V329.5H385.5V269H314V252Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M217 263H246V274H266V310H295.5V374.5H258.5V394.5H217V374.5V263Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path d="M138 374.5V308H165.5V274H187V263H217L217.5 374.5V394.5H175V374.5H138Z" fill="#3595F6" fill-opacity="0.75"/>
+              </svg>
+            </div>
+            <div class="col-md-4">
+              <div class="modal-info">
+                <h3 class="modal-title">Выберите квартиру</h3>
+                <ul class="flat-list">
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 40, 2 комн. 64,5 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 41, 1 комн. 38,9 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 42, 1 комн. 35,9 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 43, 3 комн. 56,0 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 44, 1 комн. 35,8 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 45, 1 комн. 35,8 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 46, 3 комн. 58,4 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 47, 1 комн. 32,3 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 48, 1 комн. 29,9 кв. м.</a>
+                  </li>
+                  <li class="flat-item">
+                    <a href="" class="flat-link">кв. 49, 3 комн. 75,2 кв. м.</a>
+                  </li>
+                </ul>
+                <p class="modal-alert">Квартиры, отмеченные серым, <br> уже выкуплены</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
+
   <footer>
-    <div class="footer">
-      <div class="info">
-        <img src="./img/for_fav-01 1.svg" alt="logo" class="logo">
-        <div class="footer-contacts">
-          <span class="footer-text">Закажите звонок:</span>
-          <a class="footer-phone" href="tel:+78431234567">8 (843) 123-45-67</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="info">
+            <div class="row">
+              <div class="col-md-2 row_mobile">
+                <img src="./img/for_fav-01 1.svg" alt="logo" class="logo">
+              </div>
+              <div class="col-md-5 row_mobile">
+                <div class="footer-contacts">
+                  <span class="footer-text">Закажите звонок:</span>
+                  <a class="footer-phone" href="tel:+78431234567">8 (843) 123-45-67</a>
+                </div>
+              </div>
+              <div class="col-md-5 row_mobile d-flex align-items-center">
+                <div class="social-icons">
+                  <a href="">
+                    <img src="./img/001-facebook.svg" alt="">
+                  </a>
+                  <a href="">
+                    <img src="./img/002-instagram.svg" alt="">
+                  </a>
+                  <a href="">
+                    <img src="./img/003-twitter.svg" alt="">
+                  </a>
+                  <a href="">
+                    <img src="./img/004-youtube.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="social-icons">
-          <a href="">
-            <img src="./img/001-facebook.svg" alt="">
-          </a>
-          <a href="">
-            <img src="./img/002-instagram.svg" alt="">
-          </a>
-          <a href="">
-            <img src="./img/003-twitter.svg" alt="">
-          </a>
-          <a href="">
-            <img src="./img/004-youtube.svg" alt="">
-          </a>
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <div class="links">
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Публичная оферта </a>
+            <a href="">Контакты</a>
+          </div>
         </div>
-      </div>
-      <div class="links">
-        <a href="">Политика конфиденциальности</a>
-        <a href="">Публичная оферта </a>
-        <a href="">Контакты</a>
       </div>
     </div>
   </footer>
@@ -202,6 +238,8 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
     <!-- <script src="./js/script.js"></script> -->
     <script src="./js/main.js"></script>
 </body>

@@ -88,6 +88,10 @@
   cursor: pointer;
 }
 
+.home_image .current-floor {
+  opacity: 1;
+}
+
 .home_image path:hover,
 .flats path:hover {
   opacity: 1;
